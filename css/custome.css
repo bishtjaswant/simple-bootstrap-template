@@ -1,0 +1,151 @@
+section{
+    padding-top: 75px;
+    padding-bottom: 45px;
+}
+
+#header{
+    color: #fff;
+    background-color: #6c5ce7;
+}
+
+section h2.head::after{
+    content:'';
+    background: #6c5ce7;
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin: 25px  auto;
+
+}
+
+.logo{
+    font-style: italic;
+    font-size: 2rem;
+    margin-top: 12px;
+}
+
+#menu{
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu li{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#menu li a {
+   color: #fFf;
+text-decoration: none;
+padding:  10px;
+font-weight: 800;
+display: block;
+}
+
+#menu li a:hover {
+    background: #a29bfe;
+}
+
+#banner{
+    background: url("../assets/img/banner.jpg")  no-repeat 0 0;
+    background-size: cover;
+    object-fit: cover;
+} 
+
+.banner-title{
+    position: relative;
+}
+.banner-title .title{
+font-size: 1.9rem;
+color: #6C5CE7;
+text-align: center;
+font-weight: 800;
+padding-top: 3rem;
+}
+
+
+.banner-title .lead{
+    opacity: .6;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    font-family: sans-serif;
+    background: #6C5CE7;
+    padding: 10px;
+}
+
+.service-box {
+    text-align: center;
+}
+
+.service-box i {
+    font-size: 65px;
+    color: #6c5ce7;
+}
+
+#services h2 {
+    color: #6c5ce7;
+}
+
+#testimonial {
+    background: url('../assets/img/testimonial.jpg') no-repeat  0 0;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.testimonial-desc {
+
+}
+
+.testimonial-desc .testimonial-img{
+    width: 100px;
+    height: 100px;
+}
+
+#news .btn-color{
+    background: #6C5CE7;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#news .btn-color:hover{
+    background-color: #a29bfe;
+}
+
+#footer {
+    background: #2d3436;
+}
+
+#footer h2 {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#footer p {
+    color: #fff;
+}
+
+#footer i {
+    font-size: 1rem;
+    margin: 0px 5px;
+}
+
+.footer-copyright{
+    background: rgba(45, 52, 54,.6);
+    height:35px;
+}
+.footer-copyright .social i{
+    font-size: 2rem;
+    color: #6c5ce7;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@media (max-width:768px){
+    .testimonial-box h1 {
+        font-size: 22px;
+    }
+}
